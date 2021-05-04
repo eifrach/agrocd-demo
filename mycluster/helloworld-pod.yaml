@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: example
+  labels:
+    app: hello-openshift
+  namespace: default
+spec:
+  containers:
+    - name: hello-openshift
+      image: openshift/hello-openshift
