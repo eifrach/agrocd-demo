@@ -29,7 +29,7 @@ metadata:
   name: vm-example
   namespace: default
 spec:
-  running: false
+  running: true
   template:
     metadata:
       labels:
